@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+Icon=wizard_pdftools
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=CreatePDF
+Encoding=UTF-8
+
+[Desktop Action CreatePDF]
+Name=Create PDF
+Icon=wizard_pdftools
+Exec=create-adaptive-threshold-pdf.py %f
