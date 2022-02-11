@@ -93,3 +93,14 @@ kbuildsycoca5
 1. Okular should start with all the images in the directory assembed in one tidy PDF
 suitable for economic printing that doesn't make your eyes and your pocket
 bleed.
+
+
+## Pitfalls
+
+You may see
+
+```
+convert-im6.q16: attempt to perform an operation not allowed by the security policy `PDF' @ error/constitute.c/IsCoderAuthorized/421.
+```
+
+Here is the answer: https://stackoverflow.com/questions/52998331/imagemagick-security-policy-pdf-blocking-conversion
