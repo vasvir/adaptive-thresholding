@@ -79,14 +79,13 @@ Put the create-adaptive-threshold-pdf.desktop in one of them
 sudo cp create-adaptive-threshold-pdf.desktop /usr/share/kservices5/ServiceMenus/
 ```
 
-Close all dolphin instances and run kbuildsycoca5
-
-```
-kbuildsycoca5
-```
-
+1. Close all dolphin instances
+1. Run kbuildsycoca5
+    ```
+    kbuildsycoca5
+    ```
 1. Run dolphin again
-1. Locate a directory that has the scanned imaged
+1. Locate a directory that has the scanned images
 1. Righ click / Actions / Create PDF
 1. Okular should start with all the images in the directory assembed in one tidy PDF
 suitable for economic printing that doesn't make your eyes and your pocket
