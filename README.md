@@ -1,9 +1,10 @@
 # adaptive-thresholding
-Create a PDF suitable for economic printing from photos
+Create a PDF suitable for economic B&W printing from photos
 
-## Create a PDF suitable for economic printing from photos
+## Create a PDF suitable for economic B&W printing from photos
 
-A little script that performs adaptive threshold in photos.
+A little script that performs adaptive threshold in photos and converts
+them to B&W for higher contrast and ink/toner economy.
 
 With the advent of Coronavirus and the remote learning spike a lot of
 children and professors started exchange learning material via electronic
