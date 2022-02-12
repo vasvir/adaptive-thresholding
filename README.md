@@ -51,7 +51,7 @@ in your file manager for this kind of operations.
 In a normal desktop
 
 ```
-apt install python3-opencv
+sudo apt install python3-opencv
 ```
 
 is all you need since the others must have been already installed.
@@ -61,8 +61,7 @@ is all you need since the others must have been already installed.
 Put or link th create-adaptive-threshold-pdf.py file in /usr/local/bin
 
 ```
-$sudo su -
-#cp create-adaptive-threshold-pdf.py /usr/local/bin/
+sudo cp create-adaptive-threshold-pdf.py /usr/local/bin/
 ```
 
 ### For KDE
@@ -71,14 +70,13 @@ Run this to locate where are the ServiceMenu folder (user and system)
 
 ```
 
-$kf5-config --path services
+kf5-config --path services
 ```
 
 Put the create-adaptive-threshold-pdf.desktop in one of them
 
 ```
-$sudo su -
-#cp create-adaptive-threshold-pdf.desktop /usr/share/kservices5/ServiceMenus/
+sudo cp create-adaptive-threshold-pdf.desktop /usr/share/kservices5/ServiceMenus/
 ```
 
 Close all dolphin instances and run kbuildsycoca5
