@@ -20,15 +20,16 @@ However many people are not aware of the adaptive threshold and the
 specialized scanner application and so they send images captured by
 the phone's camera (photos). These have the following problems in
 case you didn't read the previous paragraph.
-
 1. They have large grays areas and degradation
 2. They have small contrast (variation of gray) and shadows
 3. They have much bigger size typically 1 to 7 ratio
-4. Since they are bigger it takes more time to upload, download and more
-space on disk
+4. Since they are bigger it takes more time to upload, download and
+occupy more space on disk
 
 The problem though is that on Linux there is no easy to perform the
-adaptive thresholding. Gimp doesn't do it.
+adaptive thresholding.
+* Gimp doesn't do it.
+* There is no batch conversion (multiple images) utility
 
 ## Solution
 
@@ -90,7 +91,6 @@ sudo cp create-adaptive-threshold-pdf.desktop /usr/share/kservices5/ServiceMenus
 1. Okular should start with all the images in the directory assembed in one tidy PDF
 suitable for economic printing that doesn't make your eyes and your pocket
 bleed.
-
 
 ## Pitfalls
 
